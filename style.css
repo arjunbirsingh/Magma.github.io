@@ -256,4 +256,13 @@ button.learn-more {
 .marqueeInner{
   height: 40px;
   object-fit: cover;
+  animation: marquee 5s linear infinite;
+}
+@keyframes marquee{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
 }
